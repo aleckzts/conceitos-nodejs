@@ -40,7 +40,7 @@ app.put("/repositories/:id", (request, response) => {
   }
 
   const repository = {
-    id: uuid(),
+    id,
     title,
     url,
     techs,
